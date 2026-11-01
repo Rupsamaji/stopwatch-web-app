@@ -1,42 +1,24 @@
-# Stopwatch Web Application
+# Stopwatch Web App
 
-A lightweight stopwatch built with HTML, CSS, and JavaScript as part of the Prodigy InfoTech Web Development internship tasks.
+A responsive stopwatch built with HTML, CSS and vanilla JavaScript.
 
 ## Features
-
-- Start the stopwatch
-- Pause without losing the elapsed time
-- Reset the timer to zero
-- Displays elapsed time in hours, minutes, and seconds
-- Prevents multiple timers from running when Start is clicked repeatedly
-
-## Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+- Start, pause and reset controls
+- Hours, minutes, seconds and centisecond display
+- Lap recording while the stopwatch is running
+- Accurate elapsed-time calculation using the browser performance clock
+- Responsive layout for mobile and desktop
 
 ## Run locally
+Open `index.html` in a modern browser. No installation or dependencies are required.
 
-1. Clone or download this repository.
-2. Open `index.html` in a web browser.
+## Files
+- `index.html` — interface
+- `style.css` — responsive design
+- `script.js` — stopwatch logic and lap list
 
-No dependencies or build tools are required.
-
-## Project Files
-
-- `index.html` — stopwatch structure and controls
-- `style.css` — page styling
-- `script.js` — timer logic
-
-## Live Demo
-
-Enable GitHub Pages in **Settings → Pages** (deploy from the `main` branch and `/(root)`). Add the published URL here once it is available.
-
-## Internship Task
-
-Created for Prodigy InfoTech Web Development Task 2.
+## Deployment
+Enable GitHub Pages from **Settings → Pages → Deploy from a branch → main → /(root)**.
 
 ## Author
-
-Rupsa Maji — [GitHub](https://github.com/Rupsamaji)
+Rupsa Maji · [GitHub](https://github.com/Rupsamaji)
