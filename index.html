@@ -1,21 +1,3 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Stopwatch</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="container">
-        <h1>Stopwatch</h1>
-        <div id="display">00:00:00</div>
-        <div class="buttons">
-            <button onclick="start()">Start</button>
-            <button onclick="pause()">Pause</button>
-            <button onclick="reset()">Reset</button>
-        </div>
-    </div>
-
-<script src="script.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="A simple responsive stopwatch with start, pause, reset and lap features."><title>Stopwatch | Rupsa Maji</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head>
+<body><main class="app"><a class="back" href="https://github.com/Rupsamaji" target="_blank" rel="noreferrer">↗ Rupsa Maji</a><div class="eyebrow">FOCUS ON WHAT MATTERS</div><h1>Stopwatch<span>.</span></h1><p class="subtitle">Every second counts. Make yours meaningful.</p><section class="timer-card"><div class="timer-label"><span class="pulse" id="pulse"></span><span id="stateLabel">READY</span></div><div class="display" id="display" role="timer" aria-live="off">00:00:00<span class="centiseconds">.00</span></div><div class="controls"><button class="start" id="startBtn">Start</button><button class="pause" id="pauseBtn" disabled>Pause</button><button class="reset" id="resetBtn">Reset</button></div></section><section class="laps"><div class="laps-heading"><h2>Lap times</h2><button id="lapBtn" disabled>+ Record lap</button></div><ol id="lapList"><li class="empty">Your recorded laps will appear here.</li></ol></section><footer>Built with HTML · CSS · JavaScript</footer></main><script src="script.js"></script></body></html>
